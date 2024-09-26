@@ -1,0 +1,23 @@
+# Crie um algaritmo que armazene dois valores distintos
+# Depois efetue a troca dos valores de forma que a variável
+# O valor da variável B e que a veriável B passe a possuir
+# O valor da variável A.
+#Por fim, apresentar os valores trocados. (A=10 e B=5)
+a = 5
+b = 10
+print(f"valor de A ={a} e o valaor de B = {b}")
+print("Trocado Valores...")
+auxiliar = a
+a = b
+b = auxiliar
+print(f"Agora A= {a} e B= {b}")
+
+# Forma Alternativa
+a = 5
+b = 10
+print(f"Valor de A = {a} e o valor de B= {b}")
+print("Trocando valores...")
+# A variável a recebe o valor da variável b e a variável b recebe o valor
+# Da variável a, sem a necessidade de uma variável auxiliar
+a, b = b, a
+print(f"Agora A = {a} e B = {b}")
